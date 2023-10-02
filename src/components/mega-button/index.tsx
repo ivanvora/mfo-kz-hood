@@ -12,6 +12,7 @@ export type TProps = {
 export function MegaButton({ onClick, icon: Icon, text }: TProps) {
   return (
     <div className={s.body} onClick={() => onClick()}>
+      <div className={s["body-bg"]} />
       <div className={s["icon-container"]}>
         <Icon />
       </div>

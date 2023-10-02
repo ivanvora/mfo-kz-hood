@@ -1,6 +1,6 @@
 .body {
   border-radius: 1.25rem;
-  background: #fff;
+  z-index: 0;
   /* окна тень */
   box-shadow: 2px 10px 30px 0px rgba(0, 0, 0, 0.06);
   width: 27.625rem;
@@ -9,8 +9,22 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  transition: 0.15s ease-in;
 }
+
+.body-bg {
+  position: absolute;
+  z-index: 1;
+  border-radius: 1.25rem;
+  width: 27.625rem;
+  height: 17.22106rem;
+  background: linear-gradient(266deg, #f20544 -6.32%, #f28b30 96.9%);
+  filter: opacity(0);
+  transition: 0.25s ease-in;
+}
+
 .icon-container {
+  z-index: 2;
   flex-grow: 2;
   display: flex;
   align-items: center;
@@ -20,14 +34,16 @@
   transition: 0.15s ease-in;
 }
 .label-container {
+  z-index: 2;
   padding: 1.5rem;
   font-family: "Roboto", sans-serif;
   font-size: 1.875rem;
   transition: 0.15s ease-in;
 }
 
-.body:hover {
-  background: linear-gradient(266deg, #f20544 -6.32%, #f28b30 96.9%);
+.body:hover .body-bg {
+  transition: 0.25s ease-in;
+  filter: opacity(1);
 }
 
 .body:hover .icon-container {
