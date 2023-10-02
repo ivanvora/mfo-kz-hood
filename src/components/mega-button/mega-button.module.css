@@ -5,36 +5,41 @@
   box-shadow: 2px 10px 30px 0px rgba(0, 0, 0, 0.06);
   width: 27.625rem;
   height: 17.22106rem;
-
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  transition: 1.25s ease-in;
 }
 .icon-container {
   flex-grow: 2;
   display: flex;
   align-items: center;
+  width: 7.5rem;
+  height: 7.5rem;
   fill: rgb(143, 173, 191) !important;
+  transition: 0.15s ease-in;
 }
 .label-container {
   padding: 1.5rem;
   font-family: "Roboto", sans-serif;
   font-size: 1.875rem;
+  transition: 0.15s ease-in;
 }
 
 .body:hover {
   background: linear-gradient(266deg, #f20544 -6.32%, #f28b30 96.9%);
-  transition: 1.25s ease-in;
 }
 
 .body:hover .icon-container {
   fill: white !important;
+  width: 10rem;
+  height: 10rem;
+  transition: 0.15s ease-in;
 }
 
 .body:hover .label-container {
   font-weight: 700;
   font-size: 2.5rem;
   color: white;
+  transition: 0.15s ease-in;
 }

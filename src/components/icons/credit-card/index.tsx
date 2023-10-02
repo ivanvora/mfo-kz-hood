@@ -5,17 +5,17 @@ import type { TProps } from "..";
 export default function CreditCardIcon({ style, className }: TProps) {
   return (
     <svg
-      width="100"
-      height="80"
-      viewBox="0 0 100 80"
-      style={style}
-      className={className}
       xmlns="http://www.w3.org/2000/svg"
+      width="100%"
+      height="100%"
+      viewBox="0 0 120 120"
+      className={className}
+      style={style}
     >
       <path
         fill-rule="evenodd"
         clip-rule="evenodd"
-        d="M90 0H10C4.45 0 0.05 4.45 0.05 10L0 70C0 75.55 4.45 80 10 80H90C95.55 80 100 75.55 100 70V10C100 4.45 95.55 0 90 0ZM90 70H10V40H90V70ZM10 20H90V10H10V20Z"
+        d="M100 20H20C14.45 20 10.05 24.45 10.05 30L10 90C10 95.55 14.45 100 20 100H100C105.55 100 110 95.55 110 90V30C110 24.45 105.55 20 100 20ZM100 90H20V60H100V90ZM20 40H100V30H20V40Z"
       />
     </svg>
   );
