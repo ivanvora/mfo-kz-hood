@@ -55,7 +55,7 @@
 
 .body:hover .label-container {
   font-weight: 700;
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: white;
   transition: 0.15s ease-in;
 }

@@ -3,8 +3,8 @@ import React from "react";
 export function Logo() {
   return (
     <svg
-      width="437"
-      height="85"
+      width="100%"
+      height="100%"
       viewBox="0 0 437 85"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -62,8 +62,8 @@ export function Logo() {
           y2="64.6019"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F20544" />
-          <stop offset="1" stop-color="#F28B30" />
+          <stop stopColor="#F20544" />
+          <stop offset="1" stopColor="#F28B30" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_34_3004"
@@ -73,8 +73,8 @@ export function Logo() {
           y2="64.6019"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F20544" />
-          <stop offset="1" stop-color="#F28B30" />
+          <stop stopColor="#F20544" />
+          <stop offset="1" stopColor="#F28B30" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_34_3004"
@@ -84,8 +84,8 @@ export function Logo() {
           y2="64.6019"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F20544" />
-          <stop offset="1" stop-color="#F28B30" />
+          <stop stopColor="#F20544" />
+          <stop offset="1" stopColor="#F28B30" />
         </linearGradient>
       </defs>
     </svg>

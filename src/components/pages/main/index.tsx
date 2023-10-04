@@ -13,7 +13,7 @@ import GearIcon from "@/components/icons/gear";
 export function MainPage() {
   return (
     <div className={s.body}>
-      <div>
+      <div style={{ height: "5.3rem" }}>
         <Logo />
       </div>
       <Typography.Title>Добро пожаловать, приятной работы!</Typography.Title>

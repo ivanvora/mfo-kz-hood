@@ -1,0 +1,13 @@
+.header {
+  height: 2rem;
+  text-align: end;
+  padding-top: 0.5rem;
+  padding-right: 3vw;
+}
+
+.content {
+  display: flex;
+  gap: 1.8rem;
+  justify-content: flex-end;
+  align-items: center;
+}

@@ -1,8 +1,6 @@
+"use client";
 import { MainPage } from "@/components/pages/main";
-import React from "react";
 
-function Main() {
+export default function Home() {
   return <MainPage />;
 }
-
-export default Main;
