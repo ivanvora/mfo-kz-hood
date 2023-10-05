@@ -3,7 +3,8 @@ import "./globals.css";
 import type { Metadata } from "next";
 import { theme } from "@/modules/config/ant";
 import { Footer } from "@/components/footer";
-import { Header } from "@/components/header";
+
+import s from "./root-layout.module.css";
 
 export const metadata: Metadata = {
   title: "MFO",
@@ -19,8 +20,8 @@ export default function RootLayout({
     <ConfigProvider theme={theme}>
       <html lang="en">
         <body>
-          <Header />
           {children}
+
           <Footer />
         </body>
       </html>

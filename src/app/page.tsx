@@ -1,6 +1,6 @@
 "use client";
-import { MainPage } from "@/components/pages/main";
+import { AuthPage } from "@/components/pages/auth";
 
 export default function Home() {
-  return <MainPage />;
+  return <AuthPage />;
 }

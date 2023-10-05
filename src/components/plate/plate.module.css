@@ -1,0 +1,7 @@
+.plate {
+  border-radius: 1.25rem;
+  background: #fff;
+
+  /* окна тень */
+  box-shadow: 2px 10px 30px 0px rgba(0, 0, 0, 0.06);
+}

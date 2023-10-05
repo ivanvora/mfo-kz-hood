@@ -5,10 +5,20 @@ export const theme: ThemeConfig = {
     colorPrimary: "#8fadbf",
     colorInfo: "#8fadbf",
     wireframe: true,
+    fontFamily: "'Roboto', sans-serif",
+    fontSize: 16,
+    borderRadius: 10,
   },
   components: {
     Button: {
       defaultColor: "rgb(143, 173, 191)",
+      controlHeight: 50,
+    },
+    Input: {
+      controlHeight: 50,
+    },
+    Typography: {
+      colorTextHeading: "#071526",
     },
   },
 };
