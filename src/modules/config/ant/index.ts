@@ -12,6 +12,7 @@ export const theme: ThemeConfig = {
   components: {
     Button: {
       defaultColor: "rgb(143, 173, 191)",
+      fontSize: 16,
       controlHeight: 50,
     },
     Input: {

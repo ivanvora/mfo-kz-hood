@@ -26,16 +26,14 @@
 .button {
   width: 19.375rem;
   height: 3.125rem;
-  font-size: 1.25rem;
 }
 
 .body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  flex: 1;
   gap: 3rem;
+  height: 100%;
 }
 
 .logo {
@@ -43,15 +41,27 @@
   height: 5.3125rem;
 }
 
+.logo-icon-container {
+  display: contents;
+}
+
 .logo-icon {
-  position: absolute;
+  position: fixed;
   left: 0;
   z-index: -1;
   color: #8fadbf1a;
-  overflow: hidden;
+  top: -20vw;
   height: auto;
 }
 .satbayev-logo {
   width: 7.92156rem;
   height: 2.59838rem;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.5rem;
+  gap: 0.5rem;
+  align-items: center;
+  padding-bottom: 0.5rem;
 }

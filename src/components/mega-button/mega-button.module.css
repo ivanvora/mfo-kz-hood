@@ -18,9 +18,14 @@
   border-radius: 1.25rem;
   width: 27.625rem;
   height: 17.22106rem;
-  background: linear-gradient(266deg, #f20544 -6.32%, #f28b30 96.9%);
   filter: opacity(0);
   transition: 0.25s ease-in;
+  background: url("../../modules/assets/fire-logo.svg"),
+    linear-gradient(266deg, #f20544 -6.32%, #f28b30 96.9%);
+  background-repeat: no-repeat;
+  background-position: 6.69rem, 0 0;
+  background-size: 100%, contain;
+  background-blend-mode: screen;
 }
 
 .icon-container {

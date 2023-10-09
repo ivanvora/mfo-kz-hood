@@ -19,11 +19,7 @@ export default function RootLayout({
   return (
     <ConfigProvider theme={theme}>
       <html lang="en">
-        <body>
-          {children}
-
-          <Footer />
-        </body>
+        <body>{children}</body>
       </html>
     </ConfigProvider>
   );
