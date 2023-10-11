@@ -1,0 +1,19 @@
+.body {
+  display: grid;
+  grid-template-columns: 2rem auto;
+  align-items: center;
+  gap: 1.25rem;
+  margin: 2rem 0 2rem 0;
+  cursor: pointer;
+}
+.icon {
+  color: #8fadbf;
+}
+
+.body:hover {
+  font-weight: 600;
+}
+
+.body:hover .icon {
+  fill: #f04e1d;
+}

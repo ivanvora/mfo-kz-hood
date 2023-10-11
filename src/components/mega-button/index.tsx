@@ -2,7 +2,6 @@ import React from "react";
 import s from "./mega-button.module.css";
 
 import type { TProps as TIconsProps } from "@/components/icons";
-import LogoIcon from "../icons/logo";
 
 export type TProps = {
   onClick: () => void;

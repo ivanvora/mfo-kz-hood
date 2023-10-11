@@ -9,8 +9,11 @@ import AttentionDialogIcon from "@/components/icons/attention-dialog";
 import DocumentIcon from "@/components/icons/document";
 import CreditCardIcon from "@/components/icons/credit-card";
 import GearIcon from "@/components/icons/gear";
+import { useRouter } from "next/navigation";
 
 export function MainPage() {
+  const router = useRouter();
+
   return (
     <div className={s.body}>
       <div style={{ height: "5.3rem" }}>
@@ -24,7 +27,7 @@ export function MainPage() {
         <MegaButton
           icon={AttentionDialogIcon}
           text="Заявки"
-          onClick={() => alert("Заявки")}
+          onClick={() => router.push("/statements")}
         />
         <MegaButton
           icon={DocumentIcon}

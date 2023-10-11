@@ -11,10 +11,11 @@ export default function CreditCardIcon({ style, className }: TProps) {
       viewBox="0 0 120 120"
       className={className}
       style={style}
+      fill="currentColor"
     >
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M100 20H20C14.45 20 10.05 24.45 10.05 30L10 90C10 95.55 14.45 100 20 100H100C105.55 100 110 95.55 110 90V30C110 24.45 105.55 20 100 20ZM100 90H20V60H100V90ZM20 40H100V30H20V40Z"
       />
     </svg>
