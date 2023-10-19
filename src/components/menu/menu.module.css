@@ -8,6 +8,7 @@
   font-size: 1.25rem;
   width: 40px;
   transition: 0.2s ease-in;
+  z-index: 9999;
 }
 
 .menu > div :nth-child(2n) {
