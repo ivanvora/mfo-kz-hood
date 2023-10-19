@@ -10,7 +10,7 @@ import GearIcon from "../icons/gear";
 import HomeIcon from "../icons/home";
 import { useRouter } from "next/navigation";
 
-export default function Menu() {
+export function Menu() {
   const router = useRouter();
   return (
     <nav className={s.menu}>

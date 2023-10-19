@@ -1,8 +1,11 @@
 .header {
   height: 2rem;
   text-align: end;
-  padding-top: 0.5rem;
-  padding-right: 3vw;
+  padding-top: 1.87rem;
+  padding-right: 5.62rem;
+  padding-left: 5.62rem;
+  display: flex;
+  justify-content: space-between;
 }
 
 .content {
@@ -10,4 +13,8 @@
   gap: 1.8rem;
   justify-content: flex-end;
   align-items: center;
+}
+
+.logo {
+  width: 14.4rem;
 }

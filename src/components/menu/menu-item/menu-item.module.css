@@ -10,10 +10,11 @@
   color: #8fadbf;
 }
 
-.body:hover {
+.body:hover .text {
   font-weight: 600;
 }
 
 .body:hover .icon {
   fill: #f04e1d;
+  color: #f04e1d;
 }
