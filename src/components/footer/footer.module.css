@@ -1,6 +1,5 @@
 .footer {
   text-align: center;
-  padding-bottom: 0.5rem;
 }
 
 .label {
@@ -9,4 +8,5 @@
   justify-content: center;
   gap: 12px;
   color: #d5e1e8;
+  margin:1rem
 }

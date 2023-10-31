@@ -1,0 +1,26 @@
+.body{
+    display: flex;
+    gap:4px
+}
+.position__top{
+    flex-direction: column;
+}
+.position__bottom{
+    flex-direction: column-reverse;
+}
+.position__left{
+    flex-direction: row;
+    align-items: center;
+}
+.position__right{
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.title{
+    color: #8FADBF;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+}

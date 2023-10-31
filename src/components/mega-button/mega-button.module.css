@@ -3,8 +3,8 @@
   z-index: 0;
   /* окна тень */
   box-shadow: 2px 10px 30px 0px rgba(0, 0, 0, 0.06);
-  width: 27.625rem;
-  height: 17.22106rem;
+  width: 27.6rem;
+  height: 17.2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17,8 +17,8 @@
   position: absolute;
   z-index: 1;
   border-radius: 1.25rem;
-  width: 27.625rem;
-  height: 17.22106rem;
+  width: 27.6rem;
+  height: 17.2rem;
   filter: opacity(0);
   transition: 0.25s ease-in;
   background: url("../../modules/assets/fire-logo.svg"),

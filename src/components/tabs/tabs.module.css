@@ -1,0 +1,10 @@
+.selected{
+    background: #071526;
+}
+
+.body{
+    display: flex;
+    gap: 1.25rem;
+    flex-wrap: wrap;
+    
+}
