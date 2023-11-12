@@ -1,11 +1,12 @@
 "use client";
-import React from "react";
+import React, { useEffect } from "react";
 import styles from "./header.module.css";
 import { Avatar, Button, Typography } from "antd";
 import LogoIcon from "../icons/logo";
 import { Logo } from "../logo";
 
 export function Header() {
+ 
   return (
     <div className={styles.header}>
       <div className={styles.logo}>

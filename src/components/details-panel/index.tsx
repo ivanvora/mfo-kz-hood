@@ -18,7 +18,7 @@ export default function DetailsPanel({title,icon,children}: Props) {
                 <div className={s.icon}>
                     {icon}
                 </div>
-                <Typography.Text>
+                <Typography.Text style={{fontWeight:'700'}} >
                     {title}
                 </Typography.Text>
             </div>

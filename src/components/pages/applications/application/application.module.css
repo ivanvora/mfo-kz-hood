@@ -18,3 +18,16 @@
   gap: 1.87rem;
   padding-right: 5.62rem;
 }
+.plate_data{
+  padding: 3.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3.75rem;
+}
+.back{
+  display: flex;
+  margin:3.75rem 0 0 0 ;
+  align-items: center;
+  width: auto;
+  cursor: pointer;
+}

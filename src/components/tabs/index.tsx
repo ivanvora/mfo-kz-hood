@@ -9,11 +9,12 @@ type TItem = {
 
 type TProps = {
     items:TItem[] ,
-    onClick:(id:string)=>void
+    onClick:(id:string)=>void,
+    defaultSelected?:TItem['id']
 }
 
-export default function Tabs({items,onClick}: TProps) {
-    const [selected,setSelected] = useState('');
+export default function Tabs({items,onClick,defaultSelected}: TProps) {
+    const [selected,setSelected] = useState(defaultSelected??'');
   return (
     <div className={s.body} >
         {items.map(i=><Button 

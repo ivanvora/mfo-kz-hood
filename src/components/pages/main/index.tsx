@@ -27,7 +27,7 @@ export function MainPage() {
         <MegaButton
           icon={AttentionDialogIcon}
           text="Заявки"
-          onClick={() => router.push("/statements")}
+          onClick={() => router.push("/applications")}
         />
         <MegaButton
           icon={DocumentIcon}
