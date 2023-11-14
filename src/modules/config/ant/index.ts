@@ -21,5 +21,8 @@ export const theme: ThemeConfig = {
     Typography: {
       colorTextHeading: "#071526",
     },
+    Table: {
+      fontSize: 12,
+    },
   },
 };
